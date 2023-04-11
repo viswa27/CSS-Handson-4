@@ -33,7 +33,7 @@
     border: red solid 2px;
     border-radius: 15px;
     background-color: rgb(112, 247, 207);
-    width: 101%;
+    width: 101.5%;
     position: relative;
     top: 50px;
     left: -7px;
@@ -71,7 +71,7 @@
     text-decoration-color: red;
     font-size: 1.5em;
     font-weight: bolder;
-    width: 102%;
+    width: 103%;
     height: 50px;
     left: -10px;
     top: 65px;
@@ -80,11 +80,11 @@
 
 .layout2 {
     border: 2px green solid;
-    width: 100%;
+    width: 101.8%;
     height: 250px;
-    position: absolute;
-    top: 320px;
-    left: 0px;
+    position: relative;
+    top: 80px;
+    left: -10px;
     background-image: radial-gradient(ellipse, blue, rgb(49, 147, 223), green 130%);
 }
 
@@ -114,10 +114,10 @@
     grid-template-columns: auto auto auto 80px;
     grid-template-rows: 40px 70px 110px 25px;
     gap: 15px;
-    width: 100%;
-    position: absolute;
-    top: 590px;
-    left: 5px;
+    width: 101.4%;
+    position: relative;
+    top: 95px;
+    left: -5px;
 }
 
 .gbox1 {
