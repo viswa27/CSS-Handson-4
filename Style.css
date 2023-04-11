@@ -1,0 +1,178 @@
+.head {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 2em;
+    background-image: linear-gradient(90deg,red,green,yellow);
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.nav1 {
+    text-align: center;
+    width: 200px;
+    position: relative;
+    left: 35%;
+    top: -15px;
+}
+.nav {
+    background-color: rgb(164, 211, 228);
+    border: solid red 3px;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    left: 20%;
+    width: 60%;
+    height: 55px;
+}
+.layout {
+    border: red solid 2px;
+    border-radius: 15px;
+    background-color: rgb(112, 247, 207);
+    width: 101%;
+    position: relative;
+    top: 50px;
+    left: -7px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+    width: 97%;
+    position: relative;
+    left: 1.5%;
+}
+
+.box {
+    border: green solid 2px;
+    border-radius: 7px;
+    background-color: rgb(98, 251, 253);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.box3 {
+    text-align: justify;
+}
+.lastbox {
+    grid-column: 2/3;
+}
+.head2 {
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-size: 1.5em;
+    font-weight: bolder;
+    width: 102%;
+    height: 50px;
+    left: -10px;
+    top: 65px;
+    background-image: radial-gradient(circle, yellow, red );
+}
+.layout2 {
+    border: 2px green solid;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 320px;
+    left: 0px;
+    background-image: radial-gradient(ellipse, blue, rgb(49, 147, 223), green 130%);
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 25%;
+    left: 0px;
+}
+.name {
+    border: 2px red solid;
+    width: 15%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.2em;
+    font-weight: bolder;
+    background-color: rgb(254, 248, 71);
+    color: rgb(158, 7, 7);
+    border-radius: 10px;
+}
+.grid2 {
+    border: 1px green solid;
+    display: grid;
+    grid-template-columns: auto auto auto 80px;
+    grid-template-rows: 40px 70px 110px 25px;
+    gap: 15px;
+    width: 100%;
+    position: absolute;
+    top: 590px;
+    left: 5px;
+}
+
+.gbox1 {
+    grid-column: 1/5;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: red;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.gbox2 {
+    grid-column: 1/2;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: rgb(87, 208, 105);
+}
+
+.gbox3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: rgb(37, 131, 247);
+}
+
+.gbox4 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: rgb(72, 71, 234);
+}
+
+.gbox5 {
+    color: aliceblue;
+    background-color: rgb(39, 45, 55);
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+
+.gbox6 {
+    background-color: rgb(242, 153, 55);
+    grid-column: 1/4;
+    color: aliceblue;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.gbox7 {
+    background-color: rgb(80, 204, 205);
+    grid-column: 1/5;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+span {
+    text-decoration: underline;
+}
