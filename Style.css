@@ -3,7 +3,7 @@
     text-decoration: underline;
     font-weight: bolder;
     font-size: 2em;
-    background-image: linear-gradient(90deg,red,green,yellow);
+    background-image: linear-gradient(90deg, red, green, yellow);
     width: 100%;
     position: absolute;
     left: 0px;
@@ -17,6 +17,7 @@
     left: 35%;
     top: -15px;
 }
+
 .nav {
     background-color: rgb(164, 211, 228);
     border: solid red 3px;
@@ -27,6 +28,7 @@
     width: 60%;
     height: 55px;
 }
+
 .layout {
     border: red solid 2px;
     border-radius: 15px;
@@ -57,9 +59,11 @@
 .box3 {
     text-align: justify;
 }
+
 .lastbox {
     grid-column: 2/3;
 }
+
 .head2 {
     position: relative;
     text-align: center;
@@ -71,8 +75,9 @@
     height: 50px;
     left: -10px;
     top: 65px;
-    background-image: radial-gradient(circle, yellow, red );
+    background-image: radial-gradient(circle, yellow, red);
 }
+
 .layout2 {
     border: 2px green solid;
     width: 100%;
@@ -82,6 +87,7 @@
     left: 0px;
     background-image: radial-gradient(ellipse, blue, rgb(49, 147, 223), green 130%);
 }
+
 .flex {
     display: flex;
     justify-content: space-around;
@@ -89,6 +95,7 @@
     top: 25%;
     left: 0px;
 }
+
 .name {
     border: 2px red solid;
     width: 15%;
@@ -100,6 +107,7 @@
     color: rgb(158, 7, 7);
     border-radius: 10px;
 }
+
 .grid2 {
     border: 1px green solid;
     display: grid;
